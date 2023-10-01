@@ -14,7 +14,7 @@ const Navbar = () => {
       </NavbarBrand>
 
       <NavbarItem>
-        <UserButton />
+        <UserButton afterSignOutUrl="/sign-in" />
       </NavbarItem>
     </NextUINavbar>
   );
